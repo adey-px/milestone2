@@ -3,55 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>The Weather App</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Standard Calculator</title>
 </head>
 <body>
-    <!--header section starts here--> 
-     <header class="container-fluid">
-        <div class="row header">
-            <div class="col-12">
-                <div class="row topbar">
-                    <div class="col-4">
-                        <div id ="logo">
-                        <a href="index.html"><img src="assets/images/logon.jpg" alt="weather_logo">
-                        <h4 class="title">Weather</h4></a>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="searchbar">
-                        <form action="/action_page.php">
-                        <input type="text" placeholder="Search by Country, State or Zip Code" name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                        </form>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="navbar">
-                            <ul>
-                                <li><a href="index.html" class="hvr-radial-out">Home</a></li>
-                                <li><a href="about.html" class="hvr-radial-out">About</a></li>
-                                <li><a href="forcast.html" class="hvr-radial-out">Weather Forcast</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="maincontainer">
+        <form name="form">
+            <input type="text" name="textview" class="calc-display">
+        </form>
+
+        <div class="clearfix">
+            <div class="calc-btn"><input type="button" value="AC" class="button top-button" onclick="clean();"></div>
+            <div class="calc-btn"><input type="button" value="&#8756;" class="button top-button"></div>
+            <div class="calc-btn"><input type="button" value="Del" class="button top-button" onclick="back();"></div>
+            <div class="calc-btn"><input type="button" value="&#247;" class="button operator" onclick="insert('/')"></div>
         </div>
-    </header>
-    <!--header section ends here--> 
 
-    <!--section starts here--> 
-    <section class="container">
+        <div class="clearfix">
+            <div class="calc-btn"><input type="button" value="1" class="button" onclick="insert(1);"></div>
+            <div class="calc-btn"><input type="button" value="2" class="button" onclick="insert(2);"></div>
+            <div class="calc-btn"><input type="button" value="3" class="button" onclick="insert(3);"></div>
+            <div class="calc-btn"><input type="button" value="&#215;" class="button operator" onclick="insert('*');"></div>
+        </div>
 
-    </section>
+        <div class="clearfix">
+            <div class="calc-btn"><input type="button" value="4" class="button" onclick="insert(4);"></div>
+            <div class="calc-btn"><input type="button" value="5" class="button" onclick="insert(5);"></div>
+            <div class="calc-btn"><input type="button" value="6" class="button" onclick="insert(6);"></div>
+            <div class="calc-btn"><input type="button" value="&#8722;" class="button operator" onclick="insert('-');"></div>
+        </div>
 
-    <section class="container">
-        
-    </section>
-    <!--section starts here--> 
+        <div class="clearfix">
+            <div class="calc-btn"><input type="button" value="7" class="button" onclick="insert(7);"></div>
+            <div class="calc-btn"><input type="button" value="8" class="button" onclick="insert(8);"></div>
+            <div class="calc-btn"><input type="button" value="9" class="button" onclick="insert(9);"></div>
+            <div class="calc-btn"><input type="button" value="&#43;" class="button operator" onclick="insert('+');"></div>
+        </div>
+
+        <div class="clearfix">
+            <div class="calc-btn"><input type="button" value="." class="button" onclick="insert('.');"></div>
+            <div class="calc-btn"><input type="button" value="0" class="button" onclick="insert(0);"></div>
+            <div class="calc-btn-long"><input type="button" value="&#61;" class="button equal" onclick="equal();"></div>
+        </div>
+    </div>
+    <script src="assets/script/script.js"></script>
 </body>
 </html>
