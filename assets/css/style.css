@@ -64,7 +64,7 @@ h5 a {
 /* Display screen section ends here */
 
 /* Set properties for calculator buttons starts here */
-  .clearfix:before, .clearfix:after{
+  .row:before, .row:after{
    content: '';
    display: table;
    clear: both;
@@ -106,15 +106,42 @@ h5 a {
   }
 
   .button.equal {
-   background: #ad3535;
+   background: #FF0000;
    color: #fff;
    font-size: 30px;
   }
 
   .button.operator {
-   background: #20b2aa;
+   background: #0000FF;
    border-color: #d6d6d6;
    color: #fff;
    font-size: 25px;
   }
+
+  .backspace {
+      font-size: 25px;
+  }
+
+  .decimal {
+      font-size: 25px;
+      padding-bottom: 10px;
+  }
   /*Set properties for calculator buttons ends here */
+
+/* Properties for star rating starts here */
+.rating {
+    text-align: center;
+    margin-top: 
+}
+.rated {
+  color: #4CC417;
+}
+/* Properties for star rating ends here */
+
+/* Properties for contact text starts here */
+.contact-text {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+}
+/* Properties for contact text ends here */
