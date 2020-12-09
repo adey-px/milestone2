@@ -63,32 +63,32 @@ The number keys, arithmetic operation keys and all other keys on the calculator 
 
 ### 4.4 Testing User Story 
 As a user I want to: 
-1. add various numbers and get accutrate results 
+1. add various numbers and get accutrate results. <br>
 When a user types numbers to be added and presses the addition key, he is able to obtain correct answer in the display unit
 
-2. subtract numbers and get accurate results
+2. subtract numbers and get accurate results. <br>
 When a user types numbers to be subtracted and presses the subtraction key, he is able to obtain correct answer in the display unit
 
-3. multiply two or more numbers and get correct values
+3. multiply two or more numbers and get correct values. <br>
 When a user types numbers to be multiplied and presses the multiplication key, he is able to obtain correct answer in the display unit
 
-4. do division of numbers and obtain right answers
+4. do division of numbers and obtain right answers. <br>
 When a user types numbers to be divided and presses the division key, he is able to obtain correct answer in the display unit
 
-5. input whole integers and decimal numbers to add, subtract, divide or Multiply
+5. input whole integers and decimal numbers to add, subtract, divide or Multiply. <br>
 When a user presses the number keys, he is able to input both whole numbers and decimals
 
-6. delete last number or set of numbers while typing to correct any error in input
+6. delete last number or set of numbers while typing to correct any error in input. <br>
 When a user presses the Backspace button, he is able to delete the numbers typed one at a time from the last number
 
-7. clear the Calculator screen 
+7. clear the Calculator screen. <br>
 When a user presses the AC button, which works as clear screen,he is able to clear the calculator screen 
 
-8. get result of performing simple arithmetic operations
+8. get result of performing simple arithmetic operations. <br>
 When a user presses the Equal button, he is able to get result of the specific arithmetic operation he does
 
-9. view result as output on the display unit
-A user is able to view result after doing a simple arithmetic operation
+9. view result as output on the display unit. <br>
+A user is able to view result in the display unit after doing a simple arithmetic operation
 
 ### 4.5 Bugs
 1. JavaScript codes not working properly and the Calculator not working as expected. I fixed this bug by contacting Tutor support and watching more videos on YouTube to get more ideas.
