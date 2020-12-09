@@ -1,5 +1,5 @@
 # 1.0 Project Name: Standard Web Calculator 
-The aim of the project is to design a Standard Online Calculator that can be used to do simple arithmetic operations of addition, subtraction, multiplication and division. The Calculator consists of a user-friendly interface with easy-to-use buttons and a display unit where the numbers typed and the result of arithmetic operations can be seen by the user.
+The aim of the project is to design a Online Simple Calculator that can be used to do simple arithmetic operations of addition, subtraction, multiplication and division. The Calculator consists of a user-friendly interface with easy-to-use buttons and a display unit where the numbers typed and the result of arithmetic operations can be seen by the user.
 
 Click this link to view the website https://adey-px.github.io/milestone2/
 
@@ -30,10 +30,11 @@ The folder named "wireframe" has been uploaded in this project's GitHub reposito
 4. It consists of decimal key to allow arithmetic operations on decimal numbers
 5. It consists of equal key that allow user to obtain accurate result after performing any simple arithmetic operation 
 6. It consists of a display unit that works like a screen which allows user to view the output or result after performing any simple arithmetic operation
+7. The site has a link to enable user send feedback by email on their experience using the online calculator
 
 ## 3.2 Features Left to Implement
-1. To include more input keys such as square, square root and percentage keys for further arithmetic operations
-2. To add advanced keys which can allow user to perform scientific calculations such as tangent and cosine
+1. To add advanced keys which can allow user to perform scientific calculations such as tangent and cosine
+2. To make the calculator be able to clear screen automatically without pressing Clear (AC) button when a user wants to start a new arithmetic operation after getting result of previuos opertaion
 
 ## 3.3 Languages and Technologies Used
 1. <a href="https://en.wikipedia.org/wiki/HTML">HTML5:</a>
@@ -53,7 +54,7 @@ The number keys, arithmetic operation keys and all other keys on the calculator 
 
 2. CSS codes were tested with <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a>. The codes returned with no error.
 
-3. JavaScript codes were tested with Chrome developer tools in the browser console. The codes returned with no error.
+3. JavaScript codes were tested with <a href="https://jshint.com/" target="_blank">JSHint</a>. The codes returned with no error.
 
 ### 4.2 Testing Responsiveness 
 <img src="readme/testing-responsiveness-mp2.jpg" alt="responsiveness-result">
@@ -82,7 +83,7 @@ When a user presses the number keys, he is able to input both whole numbers and 
 When a user presses the Backspace button, he is able to delete the numbers typed one at a time from the last number
 
 7. clear the Calculator screen. <br>
-When a user presses the AC button, which works as clear screen,he is able to clear the calculator screen 
+When a user presses the AC button, which works as clear screen, he is able to clear the calculator screen 
 
 8. get result of performing simple arithmetic operations. <br>
 When a user presses the Equal button, he is able to get result of the specific arithmetic operation he does
@@ -91,15 +92,21 @@ When a user presses the Equal button, he is able to get result of the specific a
 A user is able to view result in the display unit after doing a simple arithmetic operation
 
 ### 4.5 Bugs
-1. JavaScript codes not working properly and the Calculator not working as expected. I fixed this bug by contacting Tutor support and watching more videos on YouTube to get more ideas.
-2. The calculatornot responsive on mobile devices. I fixed this bug by adding some media queries in the css file
+1. The claculator keys not working as expected. I fixed this bug by contacting Tutor support and watching more videos on YouTube to get more ideas
+2. The calculator not responsive on mobile devices. I fixed this bug by adding some media queries in the css file
 
 ## 5.0 Deployment
-This project is hosted on GitHub as GitHub pages using this procedure:
+### 5.1 This project is hosted on GitHub as GitHub pages using this procedure:
 1.	Login into my GitHub account
 2.	On the navigation menu, click on Settings Tab on the right side
 3.	Scroll down to GitHub Pages Section
 4.	Click on the drop-down menu under Source and select Master Branch
+
+### 5.2 The project is cloned on using these steps:
+1. On GitHub, navigate to the main page of the repository
+2. Above the list of files, click  Code
+3. Under "Clone with HTTPS" tab, click to copy the link
+4. In the workspace terminal, type git clone and paste the copied link
 
 ## 6.0 Credits
 ### 6.1 Learning Resources
