@@ -1,45 +1,116 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# 1.0 Project Name: Standard Web Calculator 
+The aim of the project is to design a Standard Calculator that can be used to do simple arithmetic operations of Addition,
+subtraction, Multiplication and Division. The Calculator consists of a user-friendly interface with easy-to-use buttons and 
+a display unit where the numbers typed and the result of arithmetic operations can be seen by the user.
 
-Welcome USER_NAME,
+Click this link to view the website https://adey-px.github.io/milestone2/
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## 2.0 UX
+The online Calculator is desinged for people who need to do day-to-day simple arithmetic operations and probably they need an alternative Calculator App when their mobile phone or computer's calculator app is not working properly due to computer virus or any other issue. It is also designed for people who just prefer to do every of their stuff online, they have prefernce for online activities rather than offline things.
 
-## Gitpod Reminders
+### 2.1 User stories
+As a user I want to 
+1. add various numbers and get accutrate results 
+2. subtract numbers and get accurate results
+3. Multiply two or more numbers and get correct values
+4. do division of numbers and obtain right answers
+5. input whole numbers and decimal numbers to add, subtract, divide or Multiply
+6. delete last number or set of numbers while typing to ensure correct input
+7. clear the Calculator screen 
+6. get result of performing simple arithmetic operations
+9. view result as output on the display unit
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### 2.2 Wireframes
+In order to bring the idea of this project to life, wireframes were produced with the use of <a href="https://www.figma.com/file/IF5iAbl1WWC48VdG7HyFSA/Web-Calculator?node-id=0%3A1">Figma</a>
+The folder named "wireframe" has been uploaded in this project's GitHub repository. The folder contains images of the wireframes designed to show Desktop, Tablet and Mobile views of the site.
 
-`python3 -m http.server`
+## 3.0 Features
+## 3.1 Existing Features
+1. The Online calculator consists of number keys from 0-9 which allow users to type in numbers to add, subtract, divide or multiply
+2. It consists of simple arithmetic operation keys for addition, subtraction, division and multiplication
+3. It has utility keys including keys for backspace and clearing screen
+4. It consists of decimal key to allow arithmetic operations on decimal numbers
+5. It consists of equal key that allow user to obtain accurate result after performing any simple arithmetic operation 
+6. It consists of a display unit that works like a screen which allows user to view the output or result after performing any simple arithmetic operation
 
-A blue button should appear to click: *Make Public*,
+## 3.2 Features Left to Implement
+1. To include more input keys such as square, square root and percentage keys for further arithmetic operations
+2. To add advanced keys which can allow user to perform scientific calculations such as tangent and cosine
 
-Another blue button should appear to click: *Open Browser*.
+## 3.3 Languages and Technologies Used
+1. <a href="https://en.wikipedia.org/wiki/HTML">HTML5:</a>
+   The project uses HTML5 for site content
+2. <a href="https://en.wikipedia.org/wiki/CSS">CSS3:</a>
+   The project uses CSS3 for styling
+3. It uses <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript:</a> for interactivity
+4. <a href="https://fontawesome.com/">Font Awesome:</a> 
+   It uses Font Awesome for Star Rating
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+## 4.0  Testing
+The number keys, arithmetic operation keys and all other keys on the calculator work well and the website looks good on Chrome, Mozilla and Edge browsers. The online calculator is responsive on tablets and mobile devices.
 
-Another blue button should appear to click: *Open Browser*.
+### 4.1 Code Validation
+1. HTML codes were tested with <a href="https://validator.w3.org/#validate_by_input" target="_blank">W3C MarkUp Validation Service</a>. The codes returned with no error.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+2. CSS codes were tested with <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a>. The codes returned with no error.
 
-## Updates Since The Instructional Video
+3. JavaScript codes were tested with Chrome developer tools in the browser console ...............
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### 4.2 Testing Responsiveness 
+<img src="readme/testing-responsiveness.jpg" alt="responsiveness-result">
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### 4.3 Testing Browser Compatibility
+<img src="readme/browser-compatibility.jpg" alt="browser-compatibility-result"> 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### 4.4 Testing User Story 
+As a user I want to: 
+1. add various numbers and get accutrate results 
+When a user types numbers to be added and presses the addition key, he is able to obtain correct answer in the display unit
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+2. subtract numbers and get accurate results
+When a user types numbers to be subtracted and presses the subtraction key, he is able to obtain correct answer in the display unit
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+3. multiply two or more numbers and get correct values
+When a user types numbers to be multiplied and presses the multiplication key, he is able to obtain correct answer in the display unit
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+4. do division of numbers and obtain right answers
+When a user types numbers to be divided and presses the division key, he is able to obtain correct answer in the display unit
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+5. input whole integers and decimal numbers to add, subtract, divide or Multiply
+When a user presses the number keys, he is able to input both whole numbers and decimals
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+6. delete last number or set of numbers while typing to correct any error in input
+When a user presses the Backspace button, he is able to delete the numbers typed one at a time from the last number
 
---------
+7. clear the Calculator screen 
+When a user presses the AC button, which works as clear screen,he is able to clear the calculator screen 
 
-Happy coding!
+8. get result of performing simple arithmetic operations
+When a user presses the Equal button, he is able to get result of the specific arithmetic operation he does
+
+9. view result as output on the display unit
+A user is able to view result after doing a simple arithmetic operation
+
+### 4.5 Bugs
+1. JavaScript codes not working properly and the Calculator not working as expected. I fixed this bug by contacting Tutor support and watching more videos on YouTube to get more ideas.
+2. The calculatornot responsive on mobile devices. I fixed this bug by adding some media queries in the css file
+
+## 5.0 Deployment
+This project is hosted on GitHub as GitHub pages using this procedure:
+
+1.	Login into my GitHub account
+2.	On the navigation menu, click on Settings Tab on the right side
+3.	Scroll down to GitHub Pages Section
+4.	Click on the drop-down menu under Source and select Master Branch
+
+## 6.0 Credits
+### 6.1 Learning Resources
+I learnt the JavaScript programming of Calculator by watching various videos on YouTube including the following:
+1. https://www.youtube.com/watch?v=CI2GwL--ll8
+2. https://www.youtube.com/watch?v=6v4vBXL-qkY&t=652s
+3. https://www.youtube.com/watch?v=JDiurjhpOXA
+
+### 6.3 Acknowledgement
+I got the inspiration for this project from the Calculator App on my Android phone
+
