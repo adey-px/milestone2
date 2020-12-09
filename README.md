@@ -1,7 +1,5 @@
 # 1.0 Project Name: Standard Web Calculator 
-The aim of the project is to design a Standard Calculator that can be used to do simple arithmetic operations of Addition,
-subtraction, Multiplication and Division. The Calculator consists of a user-friendly interface with easy-to-use buttons and 
-a display unit where the numbers typed and the result of arithmetic operations can be seen by the user.
+The aim of the project is to design a Standard Online Calculator that can be used to do simple arithmetic operations of addition, subtraction, multiplication and division. The Calculator consists of a user-friendly interface with easy-to-use buttons and a display unit where the numbers typed and the result of arithmetic operations can be seen by the user.
 
 Click this link to view the website https://adey-px.github.io/milestone2/
 
@@ -9,7 +7,7 @@ Click this link to view the website https://adey-px.github.io/milestone2/
 The online Calculator is desinged for people who need to do day-to-day simple arithmetic operations and probably they need an alternative Calculator App when their mobile phone or computer's calculator app is not working properly due to computer virus or any other issue. It is also designed for people who just prefer to do every of their stuff online, they have prefernce for online activities rather than offline things.
 
 ### 2.1 User stories
-As a user I want to 
+As a user I want to:
 1. add various numbers and get accutrate results 
 2. subtract numbers and get accurate results
 3. Multiply two or more numbers and get correct values
@@ -42,10 +40,10 @@ The folder named "wireframe" has been uploaded in this project's GitHub reposito
    The project uses HTML5 for site content
 2. <a href="https://en.wikipedia.org/wiki/CSS">CSS3:</a>
    The project uses CSS3 for styling
-3. It uses <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript:</a> for interactivity
+3. <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript:</a>
+    It uses JavaScript for interactivity
 4. <a href="https://fontawesome.com/">Font Awesome:</a> 
    It uses Font Awesome for Star Rating
-
 
 ## 4.0  Testing
 The number keys, arithmetic operation keys and all other keys on the calculator work well and the website looks good on Chrome, Mozilla and Edge browsers. The online calculator is responsive on tablets and mobile devices.
@@ -55,13 +53,13 @@ The number keys, arithmetic operation keys and all other keys on the calculator 
 
 2. CSS codes were tested with <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a>. The codes returned with no error.
 
-3. JavaScript codes were tested with Chrome developer tools in the browser console ...............
+3. JavaScript codes were tested with Chrome developer tools in the browser console. The codes returned with no error.
 
 ### 4.2 Testing Responsiveness 
-<img src="readme/testing-responsiveness.jpg" alt="responsiveness-result">
+<img src="readme/testing-responsiveness-mp2.jpg" alt="responsiveness-result">
 
 ### 4.3 Testing Browser Compatibility
-<img src="readme/browser-compatibility.jpg" alt="browser-compatibility-result"> 
+<img src="readme/browser-compatibility-mp2.jpg" alt="browser-compatibility-result"> 
 
 ### 4.4 Testing User Story 
 As a user I want to: 
@@ -98,7 +96,6 @@ A user is able to view result after doing a simple arithmetic operation
 
 ## 5.0 Deployment
 This project is hosted on GitHub as GitHub pages using this procedure:
-
 1.	Login into my GitHub account
 2.	On the navigation menu, click on Settings Tab on the right side
 3.	Scroll down to GitHub Pages Section
