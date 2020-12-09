@@ -2,37 +2,37 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-  }
+}
 
-  body{
+body {
    background: #c4c4c4;
-  }
+}
 
 /* Heading section starts here */
-  .title {
-      width:  100%;
-      height: 50px;
-      color: #000;
-      background-color: #fff;
-      text-align: center;
-      font-size: 25px;
-      margin-top: 0px;
-  }
+.title {
+    width:  100%;
+    height: 50px;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+}
 
-  h3 {
-      padding-top: 10px;
-  }
+h3 {
+    padding-top: 10px;
+}
 
-  .tagline {
-      width:  100%;
-      height: 30px;
-      color: #fff;
-      background-color: #333;
-      text-align: center;
-      font-size: 20px;
-      margin-top: 0px;
-      padding-top: 5px;
-  }
+.tagline {
+    width:  100%;
+    height: 30px;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 5px;
+}
 
 h5 a {
     color: orange;
@@ -40,102 +40,102 @@ h5 a {
 /* Heading section starts here */
 
 /* Main container section starts here */
-  .maincontainer {
+.maincontainer {
    background: #333;
    text-align: center;
    width: 400px;
    margin: 40px auto;
    padding: 30px;
    border-radius: 15px;
-  }
-  /* Main container section ends here */
+}
+/* Main container section ends here */
 
 /* Display screen section starts here */
-  form {
+form {
    padding: 0 5px;
    margin-bottom: 15px;
-  }
+}
 
-  .calc-display {
+.calc-display {
    width: 100%;
    height: 40px;
    padding: 0 10px;
    pointer-events: none;
-  }
+}
 /* Display screen section ends here */
 
 /* Set properties for calculator buttons starts here */
-  .row:before, .row:after{
+  .row:before, .row:after {
    content: '';
    display: table;
    clear: both;
    width: 100%;
-  }
+}
   
-  .calc-btn {
+.calc-btn {
    width: 25%;
    padding: 5px;
    float: left;
-  }
+}
 
-  .calc-btn-long {
+.calc-btn-long {
    width: 50%;
    padding: 5px;
    float: left;
-  }
+}
 
-  .calc-btn:hover {
+.calc-btn:hover {
       background-color: orange;
-  }
+}
 
-  .calc-btn-long:hover {
+.calc-btn-long:hover {
       background-color: orange;
-  }
+}
 
-
-  .button {
+.button {
    width: 100%;
    height: 40px;
    outline: none;
    cursor: pointer;
-  }
+}
 
-  .button.top-button {
+.button.top-button {
    background: #6d4b7e;
    border-color: #d6d6d6;
    color: #fff;
-  }
+}
 
-  .button.equal {
+.button.equal {
    background: #FF0000;
    color: #fff;
    font-size: 30px;
-  }
+}
 
-  .button.operator {
+.button.operator {
    background: #0000FF;
    border-color: #d6d6d6;
    color: #fff;
    font-size: 25px;
-  }
+}
 
-  .backspace {
-      font-size: 25px;
-  }
+.backspace {
+    font-size: 25px;
+}
 
-  .decimal {
-      font-size: 25px;
-      padding-bottom: 10px;
-  }
-  /*Set properties for calculator buttons ends here */
+.decimal {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+/*Set properties for calculator buttons ends here */
 
 /* Properties for star rating starts here */
 .rating {
     text-align: center;
     margin-top: 
 }
+
 .rated {
-  color: #4CC417;
+    color: #4CC417;
 }
 /* Properties for star rating ends here */
 
@@ -151,20 +151,25 @@ h5 a {
 @media screen and (max-width: 800px) {
    .maincontainer {
        width: 75%;
-   }
-  }
+}
+}
 
   @media screen and (max-width: 800px) {
    .title h3 {
-       font-size:5vw;
-       padding-top: 15px;
-   }
-  }
+    font-size:5vw;
+    padding-top: 15px;
+}
+}
 
-   @media screen and (max-width: 1024px) {
-   .title h3 {
-       font-size:5vw;
-       padding-top: 12px;
-   }
-  }
+@media screen and (max-width: 1024px) {
+.title h3 {
+    font-size:5vw;
+    padding-top: 12px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+.title h3 {
+    font-size:3vw;
+    padding-top: 9px;
 /* Styling for responsiveness ends here */
